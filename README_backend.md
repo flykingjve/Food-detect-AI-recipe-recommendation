@@ -2,24 +2,30 @@
 
 FastAPI + YOLO11 + 規則式推薦引擎 + 三層 LLM 容錯鏈 + Streamlit 前端。
 
-> **環境註記**：本專案的 venv 位於 **`setup\venv`**（非專案根目錄）。
-> 已驗證可用環境為 **Python 3.14.6 + ultralytics 8.4.72 + torch 2.11.0+cu128（GPU）**，不需更動。
-> 以下所有指令請在**專案根目錄** `C:\Users\jason\Desktop\ai food detect project` 下執行。
+> **環境需求**：Python 3.11 以上（已在 3.14.6 驗證）。以下指令請在**專案根目錄**執行。
+> 本庫已附訓練好的 `weights/best.pt`，clone 後安裝套件即可執行，不需重新訓練或下載資料集。
 
 ---
 
-## 1. 安裝後端套件
+## 1. 建立環境並安裝套件
 
 ```bat
-setup\venv\Scripts\activate
+:: 建立並啟動虛擬環境（首次）
+python -m venv venv
+venv\Scripts\activate
+
+:: 安裝後端套件
 pip install -r requirements_backend.txt
 ```
 
-> torch / ultralytics 已安裝，這步只會補裝 fastapi、uvicorn、streamlit、scikit-learn、groq、google-genai 等。
+> 之後每次使用只需 `venv\Scripts\activate`。
+> requirements 會裝 fastapi、uvicorn、streamlit、scikit-learn、groq、google-genai、ultralytics 等；
+> 預設安裝的是 CPU 版 torch。若要 GPU 加速，另裝對應 CUDA 版（例 CUDA 12.4）：
+> `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124`
 
 ## 2. 設定 API Key
 
-`.env` 已建立並填入金鑰。若需自行設定：
+`.env` 未隨庫上傳，請從範本複製後填入**自己的**金鑰：
 
 ```bat
 copy .env.example .env
@@ -72,7 +78,7 @@ uvicorn app.main:app --reload --port 8000
 ## 5. 啟動前端（另開一個終端機）
 
 ```bat
-setup\venv\Scripts\activate
+venv\Scripts\activate
 streamlit run frontend.py --server.port 8501
 ```
 

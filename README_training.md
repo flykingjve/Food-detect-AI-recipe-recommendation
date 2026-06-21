@@ -9,14 +9,16 @@
 
 ## 前置需求
 
-> ⚠️ 本機目前**尚未安裝真正的 Python**（只有 Microsoft Store 別名）。
-> 請先到 <https://www.python.org/downloads/> 安裝 **Python 3.11**，
-> 安裝時務必勾選 **「Add python.exe to PATH」**。
-> 安裝完成後重開一個終端機，執行 `python --version` 確認顯示 `Python 3.11.x` 再繼續。
+> ⚠️ **訓練需要資料集，本庫未包含**（檔案龐大未上傳）。
+> 重新訓練前，請先到 [NutriLens Food Ingredients Detection](https://universe.roboflow.com/nutrilens-qvsz6/food-ingredients-detection-nxe34)（CC BY 4.0）
+> 下載 **YOLOv8 格式**資料集，解壓後將 `train/`、`valid/`、`test/` 與 `data.yaml` 放回專案根目錄。
+>
+> 另需 **Python 3.11 以上**（安裝時於 Windows 勾選「Add python.exe to PATH」）。
+> 只是想**使用**模型（不重新訓練）的話，本庫已附 `weights/best.pt`，請改看 [README_backend.md](README_backend.md)。
 
 ---
 
-## 快速開始（首次使用）
+## 快速開始（重新訓練）
 
 ```bat
 :: Step 1：安裝環境（只需執行一次）
@@ -98,8 +100,8 @@ LABEL_MAP = {
 
 ```
 ai food detect project\
-├── train/ valid/ test/        ← 資料集（已存在）
-├── data.yaml                  ← 原始設定（已存在）
+├── train/ valid/ test/        ← 資料集（未隨庫上傳，需從 Roboflow 下載放回）
+├── data.yaml                  ← 原始設定（隨資料集下載）
 ├── dataset.yaml               ← prepare_yaml.py 生成（絕對路徑版）
 ├── requirements_training.txt
 ├── README_training.md

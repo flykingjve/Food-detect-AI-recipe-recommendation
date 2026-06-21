@@ -19,27 +19,41 @@
 | 推薦 | scikit-learn cosine 相似度 |
 | LLM | Groq `llama-3.1-8b-instant` / Gemini `gemini-3.1-flash-lite` / 靜態模板 |
 
-## 快速開始
+## 快速開始（從 GitHub clone）
+
+> 本庫**已包含訓練好的模型 `weights/best.pt`**，clone 後即可直接執行偵測、推薦與前端，**無需重新訓練、也不需下載資料集**。
 
 ```bat
-:: 1. 啟動虛擬環境並安裝套件
-setup\venv\Scripts\activate
+:: 1. 取得專案
+git clone https://github.com/flykingjve/Food-detect-AI-recipe-recommendation.git
+cd Food-detect-AI-recipe-recommendation
+
+:: 2. 建立並啟動虛擬環境（需 Python 3.11 以上）
+python -m venv venv
+venv\Scripts\activate
+
+:: 3. 安裝套件
 pip install -r requirements_backend.txt
+::（可選）GPU 加速：改裝對應 CUDA 版 torch，例如 CUDA 12.4：
+:: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 
-:: 2. 設定金鑰（複製範本後填入）
+:: 4. 設定金鑰（複製範本後編輯填入自己的金鑰）
 copy .env.example .env
+:: 編輯 .env 填入 GEMINI_API_KEY 與 GROQ_API_KEY
 
-:: 3. （可選）生成食譜資料庫
+:: 5. （可選）生成食譜資料庫；庫內已附 data/recipes.json，略過亦可
 python scripts\generate_recipes.py
 
-:: 4. 啟動後端
+:: 6. 啟動後端
 uvicorn app.main:app --reload --port 8000
 
-:: 5. 另開終端機啟動前端
+:: 7. 另開終端機，啟動前端（先 venv\Scripts\activate）
 streamlit run frontend.py --server.port 8501
 ```
 
 開啟 <http://localhost:8501> 即可使用。
+
+> macOS / Linux 的啟動方式為 `source venv/bin/activate`。
 
 詳細說明見 **[使用說明手冊.pdf](使用說明手冊.pdf)**、[README_backend.md](README_backend.md)、[README_training.md](README_training.md)。
 
@@ -54,8 +68,17 @@ frontend.py         Streamlit 前端
 setup/              環境安裝與檢查
 ```
 
-> **注意**：訓練資料集（`train/`、`valid/`、`test/`）與 `.env` 金鑰未隨庫上傳。
-> 資料集可至 [NutriLens Food Ingredients Detection](https://universe.roboflow.com/nutrilens-qvsz6/food-ingredients-detection-nxe34)（CC BY 4.0）下載。
+### 本庫包含 / 未包含
+
+| 已包含（clone 即有） | 未包含（需自行準備） |
+|---|---|
+| 全部程式碼（app / scripts / frontend） | `.env` 金鑰 → 由 `.env.example` 複製後填入自己的金鑰 |
+| 訓練好的模型 `weights/best.pt` | 虛擬環境 `venv/` → 自行 `python -m venv venv` |
+| 食譜資料庫 `data/recipes.json` | 訓練資料集 `train/ valid/ test/` → 僅「重新訓練」時才需要 |
+| 設定檔 `data.yaml` / `dataset.yaml` | — |
+
+> 因已附 `best.pt` 與 `recipes.json`，一般使用（偵測 + 推薦 + 前端）clone 後安裝套件即可，**不需資料集**。
+> 只有要**重新訓練**模型時，才需到 [NutriLens Food Ingredients Detection](https://universe.roboflow.com/nutrilens-qvsz6/food-ingredients-detection-nxe34)（CC BY 4.0）下載資料集放回 `train/ valid/ test/`，詳見 [README_training.md](README_training.md)。
 
 ## 授權與資料來源
 
