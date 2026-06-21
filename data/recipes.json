@@ -1,0 +1,1015 @@
+[
+  {
+    "name": "番茄炒蛋",
+    "main_ingredients": [
+      "Tomato",
+      "Egg"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Tomato",
+      "Egg",
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "經典的家常菜餚，酸甜的番茄與滑嫩的雞蛋完美結合。",
+    "recipe_id": "R001"
+  },
+  {
+    "name": "洋蔥炒牛肉",
+    "main_ingredients": [
+      "Beef",
+      "Onion"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "洋蔥的甜味與鮮嫩的牛肉片交織出濃郁的家常美味。",
+    "recipe_id": "R002"
+  },
+  {
+    "name": "醬燒茄子",
+    "main_ingredients": [
+      "Eggplant"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Eggplant",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 25,
+    "description": "軟糯入味的茄子吸飽了醬油與蒜香，非常下飯。",
+    "recipe_id": "R003"
+  },
+  {
+    "name": "馬鈴薯燉豬肉",
+    "main_ingredients": [
+      "Pork",
+      "Potato"
+    ],
+    "sub_ingredients": [
+      "Carrot",
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Potato",
+      "Carrot",
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 40,
+    "description": "慢火細燉的豬肉與鬆軟的馬鈴薯，湯汁濃郁香醇。",
+    "recipe_id": "R004"
+  },
+  {
+    "name": "涼拌小黃瓜",
+    "main_ingredients": [
+      "Cucumber"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Cucumber",
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "description": "清脆爽口的涼拌小黃瓜，是夏日消暑的絕佳開胃小菜。",
+    "recipe_id": "R005"
+  },
+  {
+    "name": "蒜泥白肉",
+    "main_ingredients": [
+      "Pork"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "鮮嫩的豬肉片淋上香氣四溢的蒜泥醬油，回味無窮。",
+    "recipe_id": "R006"
+  },
+  {
+    "name": "蘿蔔燉雞湯",
+    "main_ingredients": [
+      "Chicken",
+      "Radish"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Radish",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 50,
+    "description": "清甜的白蘿蔔與鮮美的雞肉一同慢燉，湯頭清爽溫潤。",
+    "recipe_id": "R007"
+  },
+  {
+    "name": "高麗菜炒豬肉",
+    "main_ingredients": [
+      "Cabbage",
+      "Pork"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Cabbage",
+      "Pork",
+      "garlic",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "爽脆的高麗菜與鮮美的豬肉快速翻炒，簡單卻美味。",
+    "recipe_id": "R008"
+  },
+  {
+    "name": "蒜苗炒牛肉",
+    "main_ingredients": [
+      "Beef",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Leek",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 20,
+    "description": "鮮嫩牛肉與香氣獨特的蒜苗大火快炒，滋味濃郁。",
+    "recipe_id": "R009"
+  },
+  {
+    "name": "洋蔥炒雞肉",
+    "main_ingredients": [
+      "Chicken",
+      "Onion"
+    ],
+    "sub_ingredients": [
+      "Carrot",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Onion",
+      "Carrot",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "甜美的洋蔥與嫩滑的雞肉塊拌炒，是一道老少咸宜的家常菜。",
+    "recipe_id": "R010"
+  },
+  {
+    "name": "紅燒茄子",
+    "main_ingredients": [
+      "Eggplant"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Eggplant",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 20,
+    "description": "軟糯入味的茄子吸滿了醬汁，香氣四溢且口感濃郁。",
+    "recipe_id": "R011"
+  },
+  {
+    "name": "蘿蔔燉牛肉",
+    "main_ingredients": [
+      "Beef",
+      "Radish",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "Onion",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Radish",
+      "Carrot",
+      "ginger",
+      "garlic",
+      "Onion",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 60,
+    "description": "白蘿蔔與牛肉慢火細燉，蘿蔔吸收了牛肉的鮮甜，湯汁清亮甘甜。",
+    "recipe_id": "R012"
+  },
+  {
+    "name": "蔥爆雞肉",
+    "main_ingredients": [
+      "Chicken",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Leek",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "鮮嫩的雞肉塊與香氣濃郁的大蔥快速翻炒，鑊氣十足。",
+    "recipe_id": "R013"
+  },
+  {
+    "name": "洋蔥炒蛋",
+    "main_ingredients": [
+      "Egg",
+      "Onion"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "pepper",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Egg",
+      "Onion",
+      "garlic",
+      "salt",
+      "pepper",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 12,
+    "description": "甜美的洋蔥絲與滑嫩的雞蛋一同翻炒，簡單快速又充滿家常風味。",
+    "recipe_id": "R014"
+  },
+  {
+    "name": "馬鈴薯燉雞肉",
+    "main_ingredients": [
+      "Chicken",
+      "Potato",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Potato",
+      "Carrot",
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 40,
+    "description": "濃郁香醇的醬汁慢火燉煮雞肉與馬鈴薯，入口即化。",
+    "recipe_id": "R015"
+  },
+  {
+    "name": "蒜香茄子",
+    "main_ingredients": [
+      "Eggplant"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Eggplant",
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "軟嫩的茄子吸飽了濃郁的蒜香與醬油香氣，十分開胃。",
+    "recipe_id": "R016"
+  },
+  {
+    "name": "蘿蔔燉牛肉湯",
+    "main_ingredients": [
+      "Beef",
+      "Radish"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Radish",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 60,
+    "description": "白蘿蔔的清甜融入牛肉湯中，湯頭鮮美回甘且滋補暖胃。",
+    "recipe_id": "R017"
+  },
+  {
+    "name": "蒜苗炒豬肉",
+    "main_ingredients": [
+      "Pork",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Leek",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "鮮香的蒜苗與肥瘦相間的豬肉片大火快炒，香氣四溢。",
+    "recipe_id": "R018"
+  },
+  {
+    "name": "番茄蛋花湯",
+    "main_ingredients": [
+      "Tomato",
+      "Egg"
+    ],
+    "sub_ingredients": [
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Tomato",
+      "Egg",
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "description": "清爽解膩的番茄蛋花湯，是餐桌上最簡單溫暖的湯品。",
+    "recipe_id": "R019"
+  },
+  {
+    "name": "洋芋胡蘿蔔絲",
+    "main_ingredients": [
+      "Potato",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Potato",
+      "Carrot",
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "清脆爽口的馬鈴薯絲與胡蘿蔔絲一同快炒，色彩豐富又健康。",
+    "recipe_id": "R020"
+  },
+  {
+    "name": "醬爆茄子",
+    "main_ingredients": [
+      "Eggplant"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Eggplant",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 25,
+    "description": "軟糯入味的茄子吸飽了醬油與蒜香，是一道極具風味的下飯佳餚。",
+    "recipe_id": "R021"
+  },
+  {
+    "name": "薑蔥炒雞肉",
+    "main_ingredients": [
+      "Chicken",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Leek",
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "鮮嫩的雞肉與香氣十足的薑片和青蔥一同爆炒，味道鮮美。",
+    "recipe_id": "R022"
+  },
+  {
+    "name": "蘿蔔排骨湯",
+    "main_ingredients": [
+      "Radish",
+      "Pork"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Radish",
+      "Pork",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 50,
+    "description": "清甜的白蘿蔔與豬肉慢燉出清澈鮮美的湯頭，暖胃又健康。",
+    "recipe_id": "R023"
+  },
+  {
+    "name": "洋蔥胡蘿蔔炒蛋",
+    "main_ingredients": [
+      "Egg",
+      "Onion",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Egg",
+      "Onion",
+      "Carrot",
+      "garlic",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "色澤豐富且營養均衡的家常小炒，洋蔥與胡蘿蔔的甜味完美融入蛋香中。",
+    "recipe_id": "R024"
+  },
+  {
+    "name": "薑蔥炒雞",
+    "main_ingredients": [
+      "Chicken",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Leek",
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 25,
+    "description": "鮮嫩的雞肉與濃郁的薑蔥香氣完美融合，滋味鮮美。",
+    "recipe_id": "R025"
+  },
+  {
+    "name": "土豆燉牛肉",
+    "main_ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot",
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 60,
+    "description": "燉煮至軟爛的牛肉與綿密的土豆，湯汁濃郁香甜。",
+    "recipe_id": "R026"
+  },
+  {
+    "name": "手撕包菜",
+    "main_ingredients": [
+      "Cabbage"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Cabbage",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "description": "大火快炒的包菜口感爽脆，伴隨著淡淡的蒜香與醬油香。",
+    "recipe_id": "R027"
+  },
+  {
+    "name": "涼拌黃瓜",
+    "main_ingredients": [
+      "Cucumber"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Cucumber",
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "description": "清脆爽口的黃瓜伴著濃郁的蒜香與芝麻油，是夏日消暑的絕佳涼菜。",
+    "recipe_id": "R028"
+  },
+  {
+    "name": "白蘿蔔燉豬肉",
+    "main_ingredients": [
+      "Pork",
+      "Radish"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "salt",
+      "pepper",
+      "soy sauce"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Radish",
+      "ginger",
+      "garlic",
+      "salt",
+      "pepper",
+      "soy sauce"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 45,
+    "description": "清甜的白蘿蔔與香濃的豬肉一同慢火燉煮，湯汁鮮美無比。",
+    "recipe_id": "R029"
+  },
+  {
+    "name": "醬爆肉末茄子",
+    "main_ingredients": [
+      "Eggplant",
+      "Pork"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Eggplant",
+      "Pork",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 25,
+    "description": "軟糯入味的茄子搭配碎豬肉，醬香濃郁且香氣四溢。",
+    "recipe_id": "R030"
+  },
+  {
+    "name": "蒜泥白肉伴黃瓜",
+    "main_ingredients": [
+      "Pork",
+      "Cucumber"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Cucumber",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "sesame oil",
+      "salt"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 30,
+    "description": "鮮嫩的豬肉片搭配爽脆的黃瓜，淋上特製蒜泥醬汁，清爽不油膩。",
+    "recipe_id": "R031"
+  },
+  {
+    "name": "薑絲炒雞肉",
+    "main_ingredients": [
+      "Chicken"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "ginger",
+      "garlic",
+      "soy sauce",
+      "sesame oil",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "以濃郁的薑香與麻油提味，炒出鮮嫩多汁的雞肉塊。",
+    "recipe_id": "R032"
+  },
+  {
+    "name": "馬鈴薯燉牛肉",
+    "main_ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Beef",
+      "Potato",
+      "Carrot",
+      "Onion",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 50,
+    "description": "慢火細燉至軟爛的牛肉與吸飽湯汁的馬鈴薯，溫暖又營養。",
+    "recipe_id": "R033"
+  },
+  {
+    "name": "蒜蓉炒高麗菜",
+    "main_ingredients": [
+      "Cabbage"
+    ],
+    "sub_ingredients": [
+      "Carrot",
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Cabbage",
+      "Carrot",
+      "garlic",
+      "salt",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "description": "清脆爽口的高麗菜與蒜頭快速翻炒，保留蔬菜最原始的鮮甜。",
+    "recipe_id": "R034"
+  },
+  {
+    "name": "大蔥炒豬肉",
+    "main_ingredients": [
+      "Pork",
+      "Leek"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Leek",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "salt",
+      "pepper",
+      "sesame oil"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "鮮嫩的豬肉片與香氣獨特的大蔥快速爆炒，香氣逼人。",
+    "recipe_id": "R035"
+  },
+  {
+    "name": "白蘿蔔排骨湯",
+    "main_ingredients": [
+      "Radish",
+      "Pork"
+    ],
+    "sub_ingredients": [
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Radish",
+      "Pork",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 45,
+    "description": "清甜的白蘿蔔與豬肉慢火熬煮，湯頭鮮美甘甜。",
+    "recipe_id": "R036"
+  },
+  {
+    "name": "雞肉炒高麗菜",
+    "main_ingredients": [
+      "Chicken",
+      "Cabbage"
+    ],
+    "sub_ingredients": [
+      "garlic",
+      "ginger",
+      "salt",
+      "pepper",
+      "soy sauce"
+    ],
+    "total_ingredients": [
+      "Chicken",
+      "Cabbage",
+      "garlic",
+      "ginger",
+      "salt",
+      "pepper",
+      "soy sauce"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 20,
+    "description": "鮮甜的高麗菜與嫩滑的雞肉一起快炒，營養又美味。",
+    "recipe_id": "R037"
+  },
+  {
+    "name": "馬鈴薯燉肉",
+    "main_ingredients": [
+      "Pork",
+      "Potato",
+      "Carrot"
+    ],
+    "sub_ingredients": [
+      "Onion",
+      "garlic",
+      "soy sauce",
+      "salt"
+    ],
+    "total_ingredients": [
+      "Pork",
+      "Potato",
+      "Carrot",
+      "Onion",
+      "garlic",
+      "soy sauce",
+      "salt"
+    ],
+    "difficulty": "medium",
+    "time_minutes": 40,
+    "description": "馬鈴薯與紅蘿蔔燉煮至鬆軟，融入豬肉的鮮甜與醬油的香氣。",
+    "recipe_id": "R038"
+  },
+  {
+    "name": "蔬菜蛋花湯",
+    "main_ingredients": [
+      "Egg",
+      "Tomato",
+      "Cabbage"
+    ],
+    "sub_ingredients": [
+      "salt",
+      "sesame oil",
+      "pepper"
+    ],
+    "total_ingredients": [
+      "Egg",
+      "Tomato",
+      "Cabbage",
+      "salt",
+      "sesame oil",
+      "pepper"
+    ],
+    "difficulty": "easy",
+    "time_minutes": 15,
+    "description": "熱騰騰的蛋花湯搭配新鮮蔬菜，湯頭清甜且營養豐富。",
+    "recipe_id": "R039"
+  }
+]

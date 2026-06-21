@@ -1,0 +1,19 @@
+path: C:/Users/jason/Desktop/ai food detect project
+train: train/images
+val: valid/images
+test: test/images
+nc: 13
+names:
+- Beef
+- Cabbage
+- Carrot
+- Chicken
+- Cucumber
+- Egg
+- Eggplant
+- Leek
+- Onion
+- Pork
+- Potato
+- Radish
+- Tomato

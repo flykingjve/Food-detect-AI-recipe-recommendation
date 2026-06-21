@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Beef', 'Cabbage', 'Carrot', 'Chicken', 'Cucumber', 'Egg', 'Eggplant', 'Leek', 'Onion', 'Pork', 'Potato', 'Radish', 'Tomato']
+
+roboflow:
+  workspace: nutrilens-qvsz6
+  project: food-ingredients-detection-nxe34
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nutrilens-qvsz6/food-ingredients-detection-nxe34/dataset/3
